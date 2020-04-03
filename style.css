@@ -102,15 +102,48 @@ input, select {
 }
 
 /*MY STYLING STARTS HERE*/
-div {background-color: 
-
+.general {background-color: #F5F5DC}
+.header {
+  margin: auto;
+  width: 50px;
+  font-family: cursive;
+}
+.nav li a {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 15px;
+      display: block;
+}
+.nav li a:hover {
+  background-color: #434343;
+}
+.nav li {
+  float: left;
+}
+.nav li ul {
+  display:none;
+  position: absolute;
+  min-width: 140px;
+}
+.nav li:hover > ul {
+  display: block;
+}
+.nav li ul li {
+  position: relative;
+}
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
 }
 h1{ color: #79d2f7;
   background-color: #b4c5cc;
-  font-size: 24px}
+  font-size: 24px;
+margin: 15px;
+text-align: center}
   p { color: #000000;
     background-color: #477e80;
-    font-size: 12px}
+    font-size: 12px;
+  margin: }
     ul { color: #3c4785;
       background-color: #bdbfc9
       font-size: 13px}

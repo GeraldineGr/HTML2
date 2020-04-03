@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
-<div>
+<div class="general">
 <link rel="stylesheet" href="style.css">
 <head>
   <title>CO KPI DASBOARD</title>
 </head>
 <body>
+  <div class="header">
+
+    <ul class="nav">
+      <li><a href="#"></a>Inicio</li>
+
+      <li><a href="#"></a>Calculo de Indicadores</li>
+          <ul>
+           <li> <a href="#">Visitas</a> </li>
+              <ul>
+                <li> <a href="#">Atendidos</a> </li>
+                <li> <a href="#">Saltados</a> </li>
+              </ul>
+           <li> <a href="#">AHT</a> </li>
+           <li> <a href="#">AWT</a> </li>
+          </ul>
+
+      <li><a href="#"></a>Otros Dashboards</li>
+          <ul>
+            <li> <a href="#">CLDASHBOARD</a> </li>
+            <li> <a href="#">LATAMDASHBOARD</a> </li>
+            <li> <a href="#">CSATDASHBOARD</a> </li>
+        </ul>
+
+      <li><a href="#"></a>Contacto</li>
+    </ul>
+
+  </div>
   <img src="https://lh3.googleusercontent.com/eNqgHih85Tfbq9PaEq5Xj5LpLNs_ahg54QmzyRQaWxnwM9YaG8-pm7rhEhv-hGt2Sxk=s180-rw" width="50px" height="50px" alt="Capital B">
   <h1>USER GUIDE</h1>
-  <p>Este Dashboard contiene indicadores como:</p>
-  <ul>
+  <p>Este Dashboard contiene indicadores como: (elige el mas importante para ti) </p> <!-- hacer que sea bullet choice-->
+  <ul class="KPI">
     <li> TMO</li>
     <li> AHT</li>
     <li> Número de visitas</li>
@@ -18,7 +45,8 @@
 </p>
 <p>El feeding de este reporte no se encuentra automatizado, por lo cual se indica a continuación como realizar este proceso.</p>
 <h2>Paso a Paso</h2>
-<ol>
+<p> <i> Puedes poner check a medida que cada paso va siendo ejecutado </i></p> <!--hacer que sea checkbox-->
+<ol class="steps">
   <li>Solicitar Raw Data</li>
   <li>Pegar Data en Spread Sheet Base <a href="https://drive.google.com/open?id=1FlnYEs7BE2s2fnuKg9XFCZJD3FvN6NRvln9P45J7NDw"> Raw Data File </a> </li>
   <li>Arrastrar la fórmula de campos a calcular para que se actualicen los valores.</li>
