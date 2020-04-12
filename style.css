@@ -102,29 +102,36 @@ input, select {
 }
 
 /*MY STYLING STARTS HERE*/
-.general {background-color: ##F0FFFF}
+.general {background-color: #FFFFFF}
 .header {
   margin: auto;
-  width: 50px;
-  font-family: cursive;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.nav li a {
-      background-color: #000;
-      color: #fff;
-      padding: 10px 15px;
-      display: block;
+ul, ol {
+  list-style: none;
 }
-.nav li a:hover {
-  background-color: #434343;
+.nav{
+  margin:0 auto;
 }
-.nav li {
+.nav > li {
   float: left;
 }
-.nav li ul {
-  display:none;
-  position: absolute;
-  min-width: 140px;
+.nav li a {
+  background-color: #F0F7EE;
+  color: #002186;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
 }
+.nav li a:hover > ul {
+  display: block;
+}
+    .nav li ul {
+      display: none;
+      position: absolute;
+      min-width: -140px;
+    }
 .nav li:hover > ul {
   display: block;
 }
@@ -132,20 +139,44 @@ input, select {
   position: relative;
 }
 .nav li ul li ul {
-  right: -140px;
+  right: -105px;
   top: 0px;
 }
-h1{ color: #79d2f7;
-  background-color: #b4c5cc;
+h1{ color: #18375F;
   font-size: 24px;
-margin: 15px;
-text-align: center}
+  text-align: center;
+  font-family: sans-serif
+ font-weight:bold;
+}
   p { color: #000000;
-    background-color: #477e80;
-    font-size: 12px;
-  margin: }
+    font-size: 18px;
+  margin: 15px;
+ }
+  .KPI {
+    margin: 35px;
+    color: #AAAAAA;
+    list-style: circle;
+  }
     ul { color: #3c4785;
       background-color: #bdbfc9
       font-size: 13px}
-      ol { color:#c9400a;
-        font-size: 11px}
+      h2 {
+font-size: 18px;
+font-weight: bold;
+margin: 15px;
+      }
+        .checklist {
+          margin: 55px;
+          font-size: 18px;
+        }
+        .KPIs {
+          margin: 30px;
+        }
+
+#CapitalB{ border-radius: 20%;
+  margin-right: auto;
+}
+#bottom {
+  align: middle;
+  margin: 50px;
+}
